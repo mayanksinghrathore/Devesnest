@@ -1,0 +1,35 @@
+#tableheading{
+    font-weight: bold;
+}
+#lineh{
+    line-height: 30px;
+}
+.heading{
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 25px;
+    background-color: rgb(201, 155, 245);
+}
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+a{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(121, 15, 219);
+    text-decoration: none;
+}
+#d{
+    position: absolute;
+    top: 5px;
+    right: 0px;
+}
+#a{
+    position: absolute;
+    top: 57px;
+    right: 0px;
+}
+#name{
+    font-family: monospace;
+    font-size: 20px;
+}
