@@ -1,8 +1,8 @@
 console.log("***Question 1***");
 var student = {
-  name: "Aayan Srivastava",
+  name: "Mayank Singh Rathore",
   sclass: "2nd year",
-  rollno: 02,
+  rollno: 27,
 };
 
 console.log(student);
