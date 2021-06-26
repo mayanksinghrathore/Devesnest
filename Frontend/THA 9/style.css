@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(247, 207, 192);
+}
+
+.Box{
+    display: flex;
+    justify-content: center;
+}
+
+.BrownBox{
+    background-color: rgb(70, 1, 1);
+    width: 50%;
+    height: 5%;
+    border-radius: 5px;
+}
+
+.status{
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 3vw;
+}
+
+.Seats{
+  margin: 30px 20px;
+  text-align: center;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.allBoxes{
+    padding: 10px;
+    border: 2px solid rgb(177, 47, 47);
+    height: 62vh;
+    width: 65vw;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    background-color: rgb(207, 78, 27);
+}
+
+.box{
+    background-color: rgb(141, 46, 8);
+    margin: 2px;
+}
+
+.box:hover{
+    background-color: rgb(184, 93, 58);
+    cursor: pointer;
+}
+
+.boxClicked{
+    background-color: rgb(156, 0, 0);
+}
+
+.bookedSeat, .remainingSeat{
+    position: relative;
+    right: 57px;
+}
