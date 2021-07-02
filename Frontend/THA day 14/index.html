@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title >Assignment</title>
+    <style>
+      .container {
+        height: 80vh;
+        width: 100vw;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+      }
+      .box {
+        border: 1px solid black;
+        height: 200px;
+        width: 200px;
+      }
+      em {
+        color: rgb(221, 221, 221);
+      }
+    </style>
+  </head>
+  <body style="background-image: url('https://thumbs.dreamstime.com/b/beautiful-night-sky-moon-beautiful-clouds-night-background-moon-waning-crescent-dawn-sunset-stars-just-58084007.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;">
+    <h1 style="color:rgb(138, 142, 180);">Devsnest Assignment</h1>
+    <h3 style="color:rgb(199, 174, 206)">
+      watch console:
+    </br>
+      <em>onclick, ondblclick, ondrag, onmousedown, onmousemove, onmouseover,onkeydown, onkeyup</em>
+    </h3>
+    <div class="container">
+      <div
+        class="box"
+        onclick="onClick()"
+        ondblclick="ondblClick()"
+        ondrag="drag()"
+        onmousedown="mouseDw()"
+        onmousemove="mseMove()"
+        onmouseover="mseOver()"
+      ></div>
+      <input type="text" onkeydown="keyDwn()" placeholder="Key Down" />
+      <input type="text" onkeyup="keyUp()" placeholder="Key Up" />
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
