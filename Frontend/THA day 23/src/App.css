@@ -1,0 +1,19 @@
+h2 {
+  text-align: center;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  background-color: rgb(56, 54, 95);
+}
+
+li {
+  margin: 10px 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+h1 {
+  color: rgb(92, 64, 64);
+}
