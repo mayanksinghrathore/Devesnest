@@ -1,0 +1,17 @@
+Demo SQL & foreign keys
+
+- SELECT * FROM MYCOMPANY
+- SELECT COUNT(*) AS "RECORDS" FROM MYCOMPANY
+
+
+Practice Redis
+
+- PUBLISH devsnest hello
+- PSUBSCRIBE d
+
+- XADD mystream 10001 name Bert
+- XREAD BLOCK 10000 STREAMS mystream 0
+
+- PUBLISH redis 1
+- PSUBSCRIBE r*
+-// Mayank Singh Rathore
