@@ -1,0 +1,24 @@
+- redis-cli
+- SET name mayanksinghrathore
+- GET name
+
+- KEYS *
+
+- FLUSHALL
+
+- DEL name
+- expire name 20
+- setex name 20 mayanksinghrathore
+
+- lpush members alisa 
+- LRANGE members 0 -1
+- rpush members sandy
+- lpop members
+- SADD hobbies "book reading"
+
+- psql -U postgres
+- CREATE USER devsnest WITH PASSWORD 'password'
+- CREATE DATABASE devs 
+- GRANT ALL PRIVILAGES ON DATABASE devs to fundo_bache
+
+- // Mayank Singh Rathore
